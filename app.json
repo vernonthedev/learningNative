@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d11f8153-44c8-4d2b-a1f9-cdc987524034"
+      }
+    },
+    "owner": "vernonthedev"
   }
 }
