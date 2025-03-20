@@ -12,21 +12,18 @@ export default function Index() {
       }}
     >
       <Text style={styles.title}>Test Application</Text>
-        <Link href="/profile">Profile Page</Link>
-        <Button
-            title="Press Me"
-            onPress={() => Alert.alert('Message','The Press Me Button was Pressed')}
-        />
+      <Link href="/profile" style={{ color: "red" }}>
+        Profile Page
+      </Link>
     </View>
-    
   );
 }
 
 const styles = StyleSheet.create({
-    title: {
-        textAlign: "center",
-        marginVertical: 8,
-        color: "blue",
-        fontSize: 24
-    }
+  title: {
+    textAlign: "center",
+    marginVertical: 8,
+    color: "blue",
+    fontSize: 24,
+  },
 });
